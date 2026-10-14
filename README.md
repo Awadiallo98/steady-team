@@ -1,6 +1,6 @@
-# Team Dashboard
+# Steady Team
 
-API d'un dashboard d'équipe : kanban, suivi du temps par tâche, check-in bien-être anonyme et demande d'aide confidentielle.
+API d'un dashboard d'équipe pour avancer à un rythme soutenable : kanban, suivi du temps par tâche, check-in bien-être anonyme et demande d'aide confidentielle.
 
 Le projet est développé **API d'abord** : le backend est testable via Swagger, l'interface web viendra ensuite et consommera cette API.
 
