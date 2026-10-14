@@ -1,0 +1,34 @@
+# --- Secrets ---
+# Les vraies valeurs ne doivent jamais arriver sur GitHub.
+.env
+.env.*
+!.env.example
+
+# --- Fichiers personnels (méthode de travail, sans impact sur le projet) ---
+CLAUDE.md
+MEMOIRE.md
+PLAN_SEMAINE_*.md
+PROMPT_DEMARRAGE.md
+docs/journal/
+.claude/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# --- Tests et outils ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- Éditeur et système ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
